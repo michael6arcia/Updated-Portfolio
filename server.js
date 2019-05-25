@@ -21,3 +21,8 @@ app.get("/contact", function (req, res) {
 app.get("/portfolio", function (req, res) {
     res.sendFile(path.join(__dirname + "./public/portfolio.html"));
 });
+
+// Listen on port 3000
+app.listen(3000, function () {
+    console.log("App running on port 3000!");
+});
