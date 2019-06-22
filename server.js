@@ -14,7 +14,7 @@ app.get("/", function (req, res) {
 
 // 'About Me' Route
 app.get("/about", function (req, res) {
-    res.sendFile(path.join(__dirname + "/public/contact.html"));
+    res.sendFile(path.join(__dirname + "/public/about.html"));
 });
 
 // 'Contact' Route
