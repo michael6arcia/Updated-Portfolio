@@ -9,17 +9,22 @@ var app = express();
 
 // 'Index' Route
 app.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname + "./public/index.html"));
+    res.sendFile(path.join(__dirname + "/public/index.html"));
 });
 
-// 'Contact Me' Route
+// 'About Me' Route
+app.get("/about", function (req, res) {
+    res.sendFile(path.join(__dirname + "/public/contact.html"));
+});
+
+// 'Contact' Route
 app.get("/contact", function (req, res) {
-    res.sendFile(path.join(__dirname + "./public/contact.html"));
+    res.sendFile(path.join(__dirname + "/public/contact.html"));
 });
 
 // 'Portfolio' Route
 app.get("/portfolio", function (req, res) {
-    res.sendFile(path.join(__dirname + "./public/portfolio.html"));
+    res.sendFile(path.join(__dirname + "/public/portfolio.html"));
 });
 
 // Listen on port 3000
