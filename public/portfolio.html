@@ -12,6 +12,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
 
+<style>
+    .card-text {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity .2s, visibility .2s;
+    }
+
+    .card-text:hover {
+        visibility: visible;
+        opacity: 1;
+    }
+</style>
+
 <body style="background-image: url(../assets/crossword.png)">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="/" style="font-family: 'Lato', sans-serif">Michael Garcia</a>
@@ -37,72 +50,39 @@
     <div class="container">
         <div class="row">
             <div class="col-4">
-                <div class="card animated zoomIn">
-                    <img src="https://via.placeholder.com/200x100.png?text=Work+in+Progress" class="card-img-top"
-                        alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Project title</h5>
-                        <p class="card-text">Project description.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="card text-white animated zoomIn">
+                    <img src="https://via.placeholder.com/200x200.png?text=Work+in+Progress" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
                     </div>
                 </div>
             </div>
             <br>
             <div class="col-4">
-                <div class="card animated zoomIn">
-                    <img src="https://via.placeholder.com/200x100.png?text=Work+in+Progress" class="card-img-top"
-                        alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Project title</h5>
-                        <p class="card-text">Project description.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="card text-white animated zoomIn">
+                    <img src="https://via.placeholder.com/200x200.png?text=Work+in+Progress" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
                     </div>
                 </div>
             </div>
             <div class="col-4">
-                <div class="card animated zoomIn">
-                    <img src="https://via.placeholder.com/200x100.png?text=Work+in+Progress" class="card-img-top"
-                        alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Project title</h5>
-                        <p class="card-text">Project description.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-4">
-                <div class="card animated zoomIn">
-                    <img src="https://via.placeholder.com/200x100.png?text=Work+in+Progress" class="card-img-top"
-                        alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Project title</h5>
-                        <p class="card-text">Project description.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card animated zoomIn">
-                    <img src="https://via.placeholder.com/200x100.png?text=Work+in+Progress" class="card-img-top"
-                        alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Project title</h5>
-                        <p class="card-text">Project description.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card animated zoomIn">
-                    <img src="https://via.placeholder.com/200x100.png?text=Work+in+Progress" class="card-img-top"
-                        alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Project title</h5>
-                        <p class="card-text">Project description.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="card text-white animated zoomIn">
+                    <img src="https://via.placeholder.com/200x200.png?text=Work+in+Progress" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
                     </div>
                 </div>
             </div>
@@ -110,35 +90,79 @@
         <br>
         <div class="row">
             <div class="col-4">
-                <div class="card animated zoomIn">
-                    <img src="https://via.placeholder.com/200x100.png?text=Work+in+Progress" class="card-img-top"
-                        alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Project title</h5>
-                        <p class="card-text">Project description.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="card text-white animated zoomIn">
+                    <img src="https://via.placeholder.com/200x200.png?text=Work+in+Progress" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-4">
+                <div class="card text-white animated zoomIn">
+                    <img src="https://via.placeholder.com/200x200.png?text=Work+in+Progress" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
                     </div>
                 </div>
             </div>
             <div class="col-4">
-                <div class="card animated zoomIn">
-                    <img src="https://via.placeholder.com/200x100.png?text=Work+in+Progress" class="card-img-top"
-                        alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Project title</h5>
-                        <p class="card-text">Project description.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="card text-white animated zoomIn">
+                    <img src="https://via.placeholder.com/200x200.png?text=Work+in+Progress" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-4">
+                <div class="card text-white animated zoomIn">
+                    <img src="https://via.placeholder.com/200x200.png?text=Work+in+Progress" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-4">
+                <div class="card text-white animated zoomIn">
+                    <img src="https://via.placeholder.com/200x200.png?text=Work+in+Progress" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
                     </div>
                 </div>
             </div>
             <div class="col-4">
-                <div class="card animated zoomIn">
-                    <img src="https://via.placeholder.com/200x100.png?text=Work+in+Progress" class="card-img-top"
-                        alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Project title</h5>
-                        <p class="card-text">Project description.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="card text-white animated zoomIn">
+                    <img src="https://via.placeholder.com/200x200.png?text=Work+in+Progress" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
                     </div>
                 </div>
             </div>
