@@ -4,6 +4,9 @@ var path = require("path");
 
 var app = express();
 
+// Middleware
+app.use(express.static('public'));
+
 // Routes
 // ======
 
